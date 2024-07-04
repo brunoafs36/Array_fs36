@@ -7,5 +7,4 @@ numeros.forEach(function(v, i) {
 })
 
 let bruno = 1
-
-//Mudança de Branch
+let b = 2
