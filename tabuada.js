@@ -6,3 +6,4 @@ numeros.forEach(function(v, i) {
 
 })
 
+let bruno = 1
