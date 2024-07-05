@@ -28,7 +28,18 @@ let tabuada = '';
 
    console.log(tabuada);
 
-   tabuadaResultado.innerText = tabuada;
+   criarItemTabuadaResultado(tabuada)
 
 };
+
+function criarItemTabuadaResultado(resultado ) {
+    //Criar a Div com a classe 'tabuada item' e insere a string pronta dentro da div
+    const item = document.createElement('div')
+    item.className = 'tabuada-item'
+    item.innerText = resultado
+
+    //Inserir a div criada na div do resultado que já existe no html
+    tabuadaResultado.appendChild(item)
+
+}
 
